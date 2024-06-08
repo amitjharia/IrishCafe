@@ -1,0 +1,119 @@
+.Product-container {
+    display: flex;
+    column-gap: 20px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+    padding: 30px;
+    font-family: 'Arial, sans-serif';
+    color: #333;
+    text-align: center;      /* Aligns text to the left */
+    font-style: italic;    /* Makes the text italic */
+    font-weight: bold;  
+    /* background-color: #b68873; */
+    background: url('C:\Users\LENOVO-V15\Desktop\IrishCafe(fault)\public\images\productbackground.jpg') 
+}
+
+.Product-items {
+    width: 280px;
+    border: 1px silver solid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px; /* Add this line for rounded corners */
+    background-color: whitesmoke;
+}
+
+.Product-items:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 10px 20px;
+}
+
+.Product-button {
+  width: 200px;
+  color: hsl(4, 59%, 15%);
+}
+
+.Product-container .Product-items .Product-img {
+    width: 280px;
+    border-radius: 15px 15px 0 0; /* Add this line to match the rounded corners */
+}
+
+.priceBtn {
+    display: flex;
+    background-color: #eeeeee;
+    padding: 20px;
+    border-radius: 0 0 15px 15px; /* Add this line to match the rounded corners */
+}
+
+.priceTxt {
+    font-size: 20px;
+    font-weight: 500;
+    font-weight: bold; 
+    
+}
+
+.Amount-container {
+    display: flex;
+    align-items: left; /* Align items vertically */
+    justify-content: space-between; /* Align items horizontally */
+}
+
+.Txtbox {
+    width: 50px; /* Adjust as needed */
+    text-align: left;
+    font-size: 18px;
+    padding: 5px;
+    margin-right: 10px; /* Add margin for separation between textbox and button */
+}
+
+.AddButton-button {
+    background-color: #3b120f;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px 15px; /* Adjust padding for larger button size */
+}
+
+   /* New add Button  */
+
+   /* .Product-container {
+    display: flex;
+    column-gap: 20px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+  
+  .Product-items {
+    width: 280px;
+    border: 1px silver solid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .Product-items:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 10px 20px;
+  }
+  
+  .Product-button {
+    width: 200px;
+    color: hsl(4, 59%, 15%);
+  }
+  
+  .Product-container .Product-items .Product-img {
+    width: 280px;
+  }
+  
+  .priceBtn {
+    display: flex;
+    background-color: #eeeeee;
+    padding: 10px;
+  }
+  
+  .priceTxt {
+    font-size: 20px;
+    font-weight: 500;
+  }
+   */

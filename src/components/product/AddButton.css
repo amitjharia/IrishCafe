@@ -1,0 +1,29 @@
+.AddButton-button {
+    padding: 0px; /* Increase padding */
+    width: 130px; /* Increase width */
+    height: 50px; /* Increase height */
+    margin-top: 0px;
+    color: white; /* Text color */
+    font-size: 18px; /* Increase font size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+}
+
+.Plusminus-button {
+    padding: 0px; /* Increase padding */
+    width: 50px; /* Increase width */
+    height: 50px; /* Increase height */
+    margin-top: 0px;
+    text-align: center;
+    color: white; /* Text color */
+    font-size: 18px; /* Increase font size */
+    border: none; /* Remove border */
+    background-color: hsl(8, 39%, 24%);
+}
+
+.Txtbox {
+    width: 30px; /* Increase width */
+    /* height: 40px; Increase height */
+    text-align: center;
+    font-size: 18px; /* Increase font size */
+}

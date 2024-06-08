@@ -1,0 +1,58 @@
+[
+    {
+        "id": "1",
+        "name": "Cappuccino",
+        "desc":"Experience our classic cappuccino, featuring rich espresso, steamed milk, and a thick, velvety foam layer.",
+        "price": "123",
+        "image": "/images/1.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Cold Brew",
+        "desc":"Refresh with our smooth cold brew, steeped for hours to deliver bold, rich coffee flavor.",
+        "price": "321",
+        "image": "/images/coldBrew.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Mocha",
+        "desc":"Treat yourself to our rich mocha, combining espresso, chocolate, and steamed milk for a delightful flavor.",
+        "price": "142",
+        "image": "/images/mocha.png"
+    },
+    {
+        "id": "4",
+        "name": "Coffee Latte",
+        "desc":"A smooth, creamy coffee latte made with rich espresso and steamed milk, perfect for any time.",
+        "price": "195",
+        "image": "/images/latte.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Pizza",
+        "desc":"Enjoy our delicious pizza topped with fresh ingredients, melty cheese, and a perfectly crispy crust.",
+        "price": "200",
+        "image": "/images/pizzaItalian2.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Croissant",
+        "desc":"Indulge in our flaky, buttery croissants, baked fresh daily for a perfect, delicate treat.",
+        "price": "302",
+        "image": "/images/croissant.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Spaghetti",
+        "desc":"Savor our spaghetti, perfectly cooked and topped with rich, savory sauce and fresh ingredients.",
+        "price": "262",
+        "image": "/images/spaghetti.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Burger",
+        "desc":"Enjoy our juicy burger with crispy fries, made with fresh ingredients and packed with flavor.",
+        "price": "362",
+        "image": "/images/burger.jpg"
+    }
+]

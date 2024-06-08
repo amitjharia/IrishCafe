@@ -1,0 +1,70 @@
+* {
+    margin: auto;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    
+}
+
+.Login-container {
+    width: 400px;
+    padding: 40px;
+    margin: 30px auto;
+    border: 1px solid #ddd; /* Improved border color */
+    border-radius: 10px;
+    background-color: hsl(0, 37%, 77%); /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Improved box shadow */
+}
+
+input, button {
+    width: 100%;
+    background-color: #fff; /* White background */
+    border: 1px solid #ccc; /* Light border color */
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px; /* Increased spacing between input fields and buttons */
+}
+
+button {
+    background-color: #3b120f;
+    color: #fff;
+    font-weight: bold;
+    border: none; /* Remove border */
+    border-radius: 5px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button:hover {
+    background-color: #542228; /* Darker color on hover */
+}
+
+
+
+.title {
+    font-size: 36px; /* Reduced title font size for better hierarchy */
+    text-align: center; /* Center align the title */
+    margin-bottom: 20px; /* Increased spacing below the title */
+    font-style: italic;    /* Makes the text italic */
+    font-weight: bold;     /* Makes the text bold */
+}
+
+.tagLine {
+    font-size: 16px; /* Reduced tagline font size */
+    text-align: center; /* Center align the tagline */
+    margin-bottom: 40px; /* Increased spacing below the tagline */
+}
+
+.Login-msg {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f44336; /* Red color for error message */
+    padding: 10px; /* Increased padding */
+    margin-bottom: 20px; /* Increased spacing below the message */
+}
+
+.Login-signup-title {
+    font-size: 24px; /* Reduced signup title font size */
+    text-align: center; /* Center align the signup title */
+    margin-bottom: 20px; /* Increased spacing below the signup title */
+    /* font-style: italic;    /* Makes the text italic */
+    font-style: italic;    /* Makes the text italic */
+    font-weight: bold;     /* Makes the text bold */ 
+}
