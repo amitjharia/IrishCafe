@@ -9,7 +9,7 @@
 
 /* Hero Section */
 .hero-section {
-    background: url('C:\Users\LENOVO-V15\Desktop\IrishCafe(fault)\public\images\background.jpg') no-repeat center center/cover; /* Ensure the path is correct */
+    background: url('C:\Users\LENOVO-V15\Desktop\IrishCafe\public\images\background.jpg') no-repeat center center/cover; /* Ensure the path is correct */
     height: 100vh;
     display: flex;
     align-items: center;
