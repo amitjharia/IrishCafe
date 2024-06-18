@@ -20,7 +20,7 @@ function App() {
         <hr></hr>
         <Routes>
           
-          <Route path={`${PATH}/home`} element={<Home />} />
+          <Route path={`${PATH}/`} element={<Home />} />
           {/* <Route path={`${PATH}/`} element={<Products />} />
           <Route path={`${PATH}/order`} element={<Orders />} />
           <Route path={`${PATH}/cart`} element={<Cart />} />
@@ -31,7 +31,7 @@ function App() {
           <Route path={`${PATH}/cart`} element={<Cart />} />
           <Route path={`${PATH}/login`} element={<Login />} />
           <Route path={`${PATH}/register`} element={<Register />} />
-          <Route path= {`${PATH}/`} element = {<Products/>} />
+          <Route path= {`${PATH}/product`} element = {<Products/>} />
           <Route path= {`${PATH}/exploreMenu`} element = {<Products/>} />
           {/* <Router>
             <Switch>
